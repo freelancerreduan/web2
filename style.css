@@ -1,0 +1,827 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Formular-sans';
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+
+        /* Thsi code ul navber Design  */
+        #nav-content{
+            width: 100%;
+            background-color: #2b3956; 
+        }
+        #nav-logo{
+            max-width: 120px;
+        }
+        .nav-list{
+            margin-bottom: 10px;
+            text-align: center;
+            list-style-type: none;
+            display: block;
+            transition: 0.4s;
+        }
+        .nav-link{
+            color: white;
+            padding: 10px 0px;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+        }
+        .nav-list-btn{
+            text-align: center;
+        }
+        .link-btn1{
+            text-decoration: none;
+            color: wheat;
+            padding: 10px 0px;
+            display: block;
+            transition: .4s;
+        }
+        /* hover section */
+        .nav-list:hover{
+            color: white;
+            background-color: #3c517f;
+            transition: 0.4s;
+        }
+        .nav-list-btn:hover .link-btn1{
+            color: white;
+            background-color: olive;
+            transition: .4s;
+        }
+        .perent-div{
+            width: 100%;
+            background-image: linear-gradient(180deg, #90cbe9, #3c61b1);
+        }
+        .child-div {
+            width: 100%;
+        }
+        .leptop-img {
+            max-width: 76%;
+            max-height: 300px;
+            margin: 19px 0px 0px 50px;
+            position: relative;
+        }
+        .child-div-video {
+            width: 58%;
+            height: 137px;
+            position: absolute;
+            margin: 31px -252px;
+        }
+            
+        .child-div2 {
+            max-width: 100%;
+            margin-bottom: 22px;
+        }
+        .child-span1 {
+            text-align: center;
+            display: block;
+            color: darkblue;
+            font-size: 30px;
+        }
+        .child-pera1 {
+            color: #000000;
+            font-size: 16px;
+            text-align: justify;
+            padding: 5px 18px;
+            line-height: 20px;
+        }
+        #content-btn1 {
+            color: white;
+            background-color: olive;
+            font-size: 20px;
+            padding: 10px 20px;
+            border: solid olive 1px;
+            border-radius: 7px;
+            margin: 26px 0px 20px 17%;
+            transition: 0.5s;
+        }
+        #content-btn2 {
+            color: white;
+            font-size: 20px;
+            background-color: gray;
+            padding: 10px 31px;
+            border: solid #666657 1px;
+            border-radius: 7PX;
+            margin: 10px 0px 26px 30%;
+            transition: 0.5s;
+        }
+        #content-btn1:hover{
+            color: white;
+            background-color: orange;
+            transition: 0.5s;
+        }
+        #content-btn2:hover{
+            color: white;
+            background-color: rgb(110, 70, 70);
+            transition: 0.5s;
+        }
+
+
+        /* Card SECTION THuis Programme */
+        .main-card {
+            width: 75%;
+            height: 393px;
+            margin: 0px 0px 10px 0px;
+            margin: 25px auto;
+            border-radius: 16px;
+            box-shadow: 0px 9px 9px 3px #dfd8d8;
+            box-sizing: border-box;
+            overflow: hidden;
+        }    
+        .card-header {
+            width: 100%;
+            background-color: #3c517f;
+            height: 48px;
+            margin-top: 30px;
+            margin: auto;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        #logo-img {
+            width: 50%;
+            margin: 9px 70px;
+        }
+        .card-img {
+            width: 100%;
+            margin: auto;
+            background-color: #F3F3F3;
+        }
+        .card-img-in {
+            width: 60%;
+            margin: 10px 0px 10px 20%;
+        }
+        .card-content {
+            box-sizing: border-box;
+            width: 100%;
+            margin: auto;
+            padding: 5px 10px;
+            background-color: rgb(250, 250, 250);
+        }
+        .card-content-h1{
+            font-size: 16px;
+            text-align: center;
+        }
+        .card-content-pera1 {
+
+            line-height: 18px;
+            font-size: 13px;
+        }
+        .card-content-btn {
+            padding: 10px 25px;
+            color: white;
+            background-color: orange;
+            border-radius: 10px;
+            border: 1px solid orange;
+            transition: all 0.5s ease 0s;
+            margin: 26px 0px 0px 25%;
+        }
+        .card-content-btn3{
+            padding: 10px 25px;
+            color: white;
+            background-color: orange;
+            border-radius: 10px;
+            border: 1px solid orange;
+            transition: all 0.5s ease 0s;
+        }
+        .card-content-btn4 {
+            padding: 8px 20px;
+            color: white;
+            background-color: orange;
+            border-radius: 5px;
+            border: 1px solid orange;
+            transition: all 0.5s ease 0s;
+            margin: 0px 0px 5px 25%;
+        }
+        .card-content-btn, .card-content-btn3, .card-content-btn4 :hover{
+            background-color: olive;
+            transition: 0.5s;
+        }
+
+
+
+        /* Card number 2 style */
+    
+        .card-header2{
+            width: 100%;
+            background-color: #3c517f;
+            height: 48px;
+            margin-top: 80px;
+            margin: auto;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            display: block;
+        }
+        .card-header3{
+            background-color: #7ECDDC;
+        }
+        .card-img-in3{
+            width: 310px;
+        }
+        .card-header4{
+            background-color: #ED6905;
+        }
+        #logo-img4 {
+            width: 168px;
+            height: 39px;
+            margin-left: 66px;
+        }
+        .card-content-pera1{
+            font-size: 10px;
+        }
+        .content-text {
+            padding: 26px 31px 10px 33px;
+        }
+        .logo-fixe{
+            position: fixed;
+            bottom: 20px;
+            right: 40px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #42A5F5;
+        }
+        .futter{
+            background-color: #444444;
+        }
+    #futter-p{
+        color: wheat;
+        font-size: 14px;
+    }
+        .futter a {
+            color: white;
+            margin-top: 10px;
+            display: inline-block;
+            position: relative;
+        }
+    }
+
+
+
+
+    
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Thsi code ul navber Design  */
+    #nav-content{
+     width: 100%;
+     background-color: #2b3956; 
+ }
+ #nav-logo{
+     max-width: 120px;
+ }
+ .nav-list{
+     margin-bottom: 10px;
+     text-align: center;
+     list-style-type: none;
+     display: block;
+     transition: 0.4s;
+ }
+ .nav-link{
+     color: white;
+     padding: 10px 0px;
+     text-decoration: none;
+     font-size: 18px;
+     display: block;
+ }
+ .nav-list-btn{
+     text-align: center;
+ }
+ .link-btn1{
+     text-decoration: none;
+     color: wheat;
+     padding: 10px 0px;
+     display: block;
+     transition: .4s;
+ }
+ /* hover section */
+ .nav-list:hover{
+     color: white;
+     background-color: #3c517f;
+     transition: 0.4s;
+ }
+ .nav-list-btn:hover .link-btn1{
+     color: white;
+     background-color: olive;
+     transition: .4s;
+ }
+ .perent-div{
+     width: 100%;
+     background-image: linear-gradient(180deg, #90cbe9, #3c61b1);
+ }
+ .child-div {
+     width: 100%;
+ }
+ .leptop-img {
+     max-width: 76%;
+     max-height: 300px;
+     margin: 19px 0px 0px 50px;
+     position: relative;
+ }
+ .child-div-video {
+     width: 58%;
+     height: 119px;
+     position: absolute;
+     margin: 27px -216px;
+ }
+     
+ .child-div2 {
+     max-width: 100%;
+     margin-bottom: 22px;
+ }
+ .child-span1 {
+     text-align: center;
+     display: block;
+     color: darkblue;
+     font-size: 30px;
+ }
+ .child-pera1 {
+     color: #000000;
+     font-size: 16px;
+     text-align: justify;
+     padding: 5px 18px;
+     text-align-last: left;
+     line-height: 20px;
+ }
+ #content-btn1 {
+     color: white;
+     background-color: olive;
+     font-size: 20px;
+     padding: 10px 20px;
+     border: solid olive 1px;
+     border-radius: 7px;
+     margin: 26px 0px 20px 17%;
+     transition: 0.5s;
+ }
+ #content-btn2 {
+     color: white;
+     font-size: 20px;
+     background-color: gray;
+     padding: 10px 31px;
+     border: solid #666657 1px;
+     border-radius: 7PX;
+     margin: 10px 0px 26px 30%;
+     transition: 0.5s;
+ }
+ #content-btn1:hover{
+     color: white;
+     background-color: orange;
+     transition: 0.5s;
+ }
+ #content-btn2:hover{
+     color: white;
+     background-color: rgb(110, 70, 70);
+     transition: 0.5s;
+ }
+ 
+ 
+ /* Card SECTION THuis Programme */
+ .main-card {
+     width: 75%;
+     height: 393px;
+     margin: 0px 0px 10px 0px;
+     margin: 25px auto;
+     border-radius: 16px;
+     box-shadow: 0px 9px 9px 3px #dfd8d8;
+     box-sizing: border-box;
+     overflow: hidden;
+ }    
+ .card-header {
+     width: 100%;
+     background-color: #3c517f;
+     height: 48px;
+     margin-top: 30px;
+     margin: auto;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+ }
+ #logo-img {
+     width: 50%;
+     margin: 9px 70px;
+ }
+ .card-img {
+     width: 100%;
+     margin: auto;
+     background-color: #F3F3F3;
+ }
+ .card-img-in {
+     width: 60%;
+     margin: 10px 0px 10px 20%;
+ }
+ .card-content {
+     box-sizing: border-box;
+     width: 100%;
+     margin: auto;
+     padding: 5px 10px;
+     background-color: rgb(250, 250, 250);
+ }
+ .card-content-h1{
+     font-size: 16px;
+     text-align: center;
+ }
+ .card-content-pera1 {
+ 
+     line-height: 18px;
+     font-size: 13px;
+ }
+ .card-content-btn {
+     padding: 10px 25px;
+     color: white;
+     background-color: orange;
+     border-radius: 10px;
+     border: 1px solid orange;
+     transition: all 0.5s ease 0s;
+     margin: 26px 0px 0px 25%;
+ }
+ .card-content-btn3{
+     padding: 10px 25px;
+     color: white;
+     background-color: orange;
+     border-radius: 10px;
+     border: 1px solid orange;
+     transition: all 0.5s ease 0s;
+ }
+ .card-content-btn4 {
+     padding: 8px 20px;
+     color: white;
+     background-color: orange;
+     border-radius: 5px;
+     border: 1px solid orange;
+     transition: all 0.5s ease 0s;
+     margin: 0px 0px 5px 25%;
+ }
+ .card-content-btn, .card-content-btn3, .card-content-btn4 :hover{
+     background-color: olive;
+     transition: 0.5s;
+ }
+ 
+ 
+ 
+ /* Card number 2 style */
+ 
+ .card-header2{
+     width: 100%;
+     background-color: #3c517f;
+     height: 48px;
+     margin-top: 80px;
+     margin: auto;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     display: block;
+ }
+ .card-header3{
+     background-color: #7ECDDC;
+ }
+ .card-img-in3{
+     width: 310px;
+ }
+ .card-header4{
+     background-color: #ED6905;
+ }
+ #logo-img4 {
+     width: 168px;
+     height: 39px;
+     margin-left: 66px;
+ }
+ .card-content-pera1{
+     font-size: 10px;
+ }
+ .content-text {
+     padding: 26px 31px 10px 33px;
+ }
+ .logo-fixe{
+     position: fixed;
+     bottom: 20px;
+     right: 40px;
+     width: 50px;
+     border-radius: 50%;
+     background-color: #42A5F5;
+ }
+ .futter{
+     background-color: #444444;
+ }
+ #futter-p{
+    color: wheat;
+    font-size: 14px;
+ }
+ .futter a {
+     color: white;
+     margin-top: 10px;
+     display: inline-block;
+     position: relative;
+ }
+  
+   }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+
+    /* Navber Content list */
+    #nav-content{
+        background-color: #24375F;
+        height: 80px;
+        display: block;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        box-sizing: border-box;
+    }
+    #nav-logo {
+        float: left;
+        display: inline;
+        margin: 17px 0px 0px 87px;
+    }
+    .nav-list{
+        list-style-type: none;
+        float: left;
+        transition: 1s;
+    }
+    .nav-link{
+        color: white;
+        text-decoration: none;
+        padding: 30px 30px;
+        display: inline-block;
+        transition: 0.8s;
+    }
+    .nav-list:hover .nav-link{
+        color: #e8edf5 ;
+        transition: 0.8s;
+    }
+    .nav-link{
+        font-size: 22px;  
+    }
+    .nav-list-btn{
+        list-style: none;
+        width: 170px;
+        background: #60cc02;
+        float: right;
+        border-radius: 15px;
+        font-size: 20px;
+        padding: 8px 28px ;
+        margin: 25px 109px 0px 0px;
+        transition: 0.3s;
+    }
+    .link-btn1 {
+       text-decoration: none;
+       color: white;
+       display: block;
+    }
+    .nav-list-btn:hover{
+        padding: 8px 28px ;
+        font-size: 20px;
+        transform: scale(1.1);
+    }
+   
+
+
+    /* Chind div content */
+    .perent-div {
+        width: 100%;
+        text-align: left;
+        padding: 50px 0 50px 0;
+        background-image: linear-gradient(180deg, #90cbe9, #3c61b1);
+        background-size: cover;
+        position: relative;
+        margin-bottom: 50px;
+        height: 500px;
+    }
+    .child-div{
+        width: 50%;
+        position: relative;
+        display: inline-block;
+    }
+    .child-div-video {
+        width: 430px;
+        height: 270px;
+        margin: -337px 0px 0px 66px;
+        display: block;
+    }
+    .child-div2{
+        height: 40px;
+        width:41%;
+        display: inline-block;
+    }
+
+
+    /* child-div2 content */
+    .child-span1{
+        font-size: 50px;
+        line-height: 80px;
+        font-family: 'BhuTuka Expanded One', cursive;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .child-pera1{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 50px;
+      
+        line-height: 30px;
+        font-family: 'BhuTuka Expanded One', cursive;
+        font-family: 'Fredoka', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #content-btn1{  
+        color: white;
+        background-color: orange;
+        padding: 8px 28px ;
+        border-radius: 25px;
+        border: orange solid 1px;
+        font-size: 26px;
+        margin-right: 30px;
+        transition: 0.3s;
+    }
+    #content-btn2{
+        color: white;
+        background-color: #6f94cb;
+        font-size: 26px;
+        padding: 8px 28px ;
+        border-radius: 38px ;
+        border: #6f94cb solid 1px ;
+        transition: 0.3s;
+    }
+    #content-btn1:hover{
+        transform: scale(1.1);
+    }
+    #content-btn2:hover{
+        transform: scale(1.1);
+    }
+    
+
+    /* main-div content */
+    .main-card {
+        width: 570px;
+        height: 700px;
+        margin: 0px 11px 59px 39px;
+        float: left ;
+        border-radius: 20px;
+        box-shadow:0px 14px 9px 3px #dfd8d8;;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+   .card-header{
+       background-color: #532C6D;
+       border-top-right-radius: 18px;
+       border-top-left-radius: 18px;
+       display: block;
+   }
+   .card-header2{
+    height: 60px;
+    background-color: #261541;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    display: block;
+   }
+   .card-header3{
+    height: 60px;
+    background-color: #57a3b0;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    display: block;
+   }
+   .card-header4{
+    height: 60px;
+    background-color:#ED6905;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    display: block;
+   }
+
+   
+   .card-img{
+       background-color: #F3F3F3;
+   }
+   #logo-img {
+    margin: 12px 0px 0px 35%;
+    background-size: cover;
+    }
+    #logo-img4{
+        margin: 7px 0px 0px 29%;
+        max-width: 45%;
+    }
+   
+   .card-content{
+       background-color: #FFFFFF;
+   }
+   .card-content-btn {
+    color: white;
+    background-color: green ;
+    font-size: 25px;
+    padding: 16px 74px;
+    border-radius: 30px;
+    border: solid 1px olive;
+    margin-left: 140px;
+    transition: 0.5s;
+    }
+    .card-content-btn:hover{
+        padding: 16px 79px;
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+   .card-img-in{
+    max-width: 434px;
+    margin: 0px 68px;
+   }
+   .card-img-in3{
+       background-size: cover;
+   }
+   .card-content-h1{
+    text-align: center;
+    margin: 28px 0px 36px 0;
+   }
+   .card-content-pera1{
+       font-size: 18px;
+       word-spacing: 5px;
+       padding: 30px;
+   }
+  
+   .content-text{
+       width: 1000px;
+       margin: auto;
+       display: inherit ;
+   }
+   .content-text h2{
+       font-family: 'BhuTuka Expanded One', cursive;
+       font-family: 'Fredoka', sans-serif;
+       font-family: 'Open Sans', sans-serif;
+       line-height: 60px;
+   }
+   .content-text p{
+       font-size: 18px;
+       line-height: 20px;
+   }
+   .futter{
+       text-align: center;
+       color: rgb(225, 222, 222);
+       height: 45px;
+       background-color: #444444 ;
+       overflow: hidden;
+   }
+   .futter a {
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    }
+    .logo-fixe{
+       
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #42A5F5;
+    }
+}   
+
+
+
